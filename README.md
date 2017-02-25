@@ -28,3 +28,13 @@ For more information on the mathematics simulated by this program, read *Ubbo F.
 Produced in the same afternoon as Random Walk II, this program improves on Random Walk II by finding the theoretical standard deviation and compares the amount of data occurring between one, two and three theoretical standard deviations of the mean (assumed to be zero) and compares it to the proportions of the actual count.  This provides a slightly better means of testing the claim of normality than a simple visual inspection.
 This program depends on randwalk2 being in the same directory at time of execution.
 
+#### GOMPQ.xlsm ####
+This program attempts to fit the natural log of force of mortality data &mu;<sub>x</sub> to a Gompertz function.  The Gompertz function is a time-series model which predicts growth being slowest at the beginning and end of a time period.  It's a specialized case of the generalized logistic function.
+Run the macro GOMPQ to see this experiment played out.
+
+#### BetterBrownian.xlsm ####
+BetterBrownian is a simple Brownian Motion simulator that produces a cumulative frequency histogram of the results.  The Brownian Motion function is a dependency for *correlationtest.xlsm*.
+
+#### correlationtest.xlsm ####
+This program returns to Ubo Weirsema's textbook names above, and tests the claim that from two independent Brownian processes, we can create a third that shares a given correlation with the first of the prior two.
+Unfortunately, because of the computational power required for this task, Microsoft Excel is somewhat limited in its results.
