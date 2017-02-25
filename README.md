@@ -5,3 +5,8 @@ This project contains the following files:
 ----------
 #### Expander.xlsm ####
 This file replaces gaps in l<sub>x</sub> data with data automatically generated using uniform, exponential or harmonic assumptions.
+
+#### TableBuilderIV.xlsm ####
+This uses a table of ages and q<sub>x</sub> values, and quickly creates a table with the complete set of columns of values used on the actuarial exams.  Version 4 corrects a small error in the <sub>n</sub>E<sub>x</sub> data generating function and sports an improved user interface over version 1 (which is omitted from this repo).
+
+#### TableBuilderV.xlsm ####
