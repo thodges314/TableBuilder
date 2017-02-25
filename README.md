@@ -19,3 +19,12 @@ Version 7 has significant improvements over version 5.  While the functions are 
 Table Builder VIII has only minor improvements over Table Builder VII, namely enabling the Column Auto-Width option, removing the notice of future features, and a few clean-ups to the code.
 
 ----------
+#### randwalk2.xlsm ####
+This program simulates a user chosen number of random walks with a user chosen number of steps each, sorts them in ascending order, and then creates a bar chart that visualizes a resultant curve that takes on the same shape of a histrogram of the same data (which can be visually compared to an histogram of the normal distribution).  Using a larger number of walks than the suggested 100 is enough to create satisfactorily convincing graphs.
+To use this program, simply run the macro *RandomWalk*.
+For more information on the mathematics simulated by this program, read *Ubbo F. Wiersema's* [Brownian Motion Calculus](http://www.amazon.com/Brownian-Motion-Calculus-Ubbo-Wiersema/dp/0470021705).
+
+#### randwalk3.xlsm ####
+Produced in the same afternoon as Random Walk II, this program improves on Random Walk II by finding the theoretical standard deviation and compares the amount of data occurring between one, two and three theoretical standard deviations of the mean (assumed to be zero) and compares it to the proportions of the actual count.  This provides a slightly better means of testing the claim of normality than a simple visual inspection.
+This program depends on randwalk2 being in the same directory at time of execution.
+
